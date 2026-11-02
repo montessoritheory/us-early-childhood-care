@@ -1,0 +1,22 @@
+survey_year,factor,column,percent_very_important,standard_error,sample_size
+2016,Reliability of the arrangement,importance_reliability,85.9,0.94,3871
+2016,Learning activities,importance_learning_activities,78.5,0.81,3871
+2016,Caregiver available when needed,importance_caregiver_availability,72.2,1.09,3871
+2016,Time with other children,importance_time_with_other_children,67.2,0.88,3871
+2016,Location,importance_location,62.1,1.14,3871
+2016,Cost,importance_cost,54.2,1.28,3871
+2016,Recommendations from family and friends,importance_recommendations,50.2,1.07,3871
+2016,Number of children in the group,importance_group_size,41.4,1.0,3871
+2016,Website ratings,importance_website_ratings,29.2,1.08,3871
+2016,Religious orientation,importance_religious_orientation,18.3,0.89,3871
+2019,Reliability of the arrangement,importance_reliability,89.2,0.79,3124
+2019,Qualifications of the staff (2019),importance_staff_qualifications,75.3,1.03,3124
+2019,Learning activities,importance_learning_activities,71.5,1.08,3124
+2019,Caregiver available when needed,importance_caregiver_availability,77.9,1.06,3124
+2019,Time with other children,importance_time_with_other_children,61.6,1.14,3124
+2019,Location,importance_location,62.0,1.0,3124
+2019,Cost,importance_cost,57.9,1.02,3124
+2019,Recommendations from family and friends,importance_recommendations,56.6,1.42,2575
+2019,Number of children in the group,importance_group_size,44.1,1.32,3124
+2019,Website ratings,importance_website_ratings,37.5,1.22,2447
+2019,Religious orientation,importance_religious_orientation,14.7,0.95,3124

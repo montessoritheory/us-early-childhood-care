@@ -1,0 +1,17 @@
+survey_year,activity,column,percent_of_children_age_3_to_5,standard_error,sample_size
+2016,Read to 3 or more times in the past week,times_read_to_past_week,81.3,1.11,2576
+2016,Told a story 3 or more times,told_story_past_week,33.7,1.36,2576
+2016,"Taught letters, words or numbers 3+ times",taught_letters_words_numbers_past_week,68.1,1.5,2576
+2016,Sang songs 3 or more times,sang_songs_past_week,68.8,1.3,2576
+2016,Arts and crafts 3 or more times,arts_and_crafts_past_week,37.5,1.31,2576
+2016,Family dinner 5 or more days,family_dinners_past_week,71.7,1.33,2576
+2016,Visited a library in the past month,library_visit_past_month,40.4,1.4,2576
+2016,Visited a bookstore in the past month,bookstore_visit_past_month,32.4,1.31,2576
+2019,Read to 3 or more times in the past week,times_read_to_past_week,84.6,0.89,3094
+2019,Told a story 3 or more times,told_story_past_week,37.6,1.12,3094
+2019,"Taught letters, words or numbers 3+ times",taught_letters_words_numbers_past_week,67.0,0.99,3094
+2019,Sang songs 3 or more times,sang_songs_past_week,72.9,0.93,3094
+2019,Arts and crafts 3 or more times,arts_and_crafts_past_week,45.9,1.12,3094
+2019,Family dinner 5 or more days,family_dinners_past_week,75.8,0.87,3094
+2019,Visited a library in the past month,library_visit_past_month,37.5,1.04,3094
+2019,Visited a bookstore in the past month,bookstore_visit_past_month,29.2,0.96,3094

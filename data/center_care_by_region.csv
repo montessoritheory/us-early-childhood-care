@@ -1,0 +1,9 @@
+survey_year,census_region,percent_in_weekly_center_program_age_3_to_5,standard_error,sample_size
+2016,Midwest,61.7,3.48,564
+2016,Northeast,67.9,3.2,433
+2016,South,60.9,2.52,918
+2016,West,51.8,3.27,661
+2019,Midwest,64.4,2.21,701
+2019,Northeast,68.7,2.86,532
+2019,South,59.7,1.88,1100
+2019,West,58.1,2.42,761

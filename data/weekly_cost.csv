@@ -1,0 +1,9 @@
+survey_year,arrangement,mean_weekly_cost_per_child_usd,standard_error,median_weekly_cost_per_child_usd,percent_paying_nothing,sample_size_paying
+2016,Center-based program,133.31,2.94,120.0,4.5,1904
+2016,Relative care,82.02,5.97,50.0,7.2,291
+2016,Nonrelative care,137.76,5.08,100.0,4.8,730
+2019,Center-based program,151.26,2.25,128.85,7.1,2300
+2019,Relative care,119.75,8.0,92.31,3.8,308
+2019,Nonrelative care,159.49,6.48,120.0,3.6,771
+2016,"Center-based program, per hour",7.62,0.3,4.98,,1904
+2019,"Center-based program, per hour",8.21,0.26,5.29,,2300
