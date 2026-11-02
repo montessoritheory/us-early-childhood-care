@@ -1,0 +1,135 @@
+file,column,type,description,example
+center_care_by_income.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+center_care_by_income.csv,household_income,str,"Total household income in 10 groups, the 2019 top groups combined into $150,001 or more (TTLHHINC)","$60,001 to $75,000"
+center_care_by_income.csv,percent_in_weekly_center_program_age_3_to_5,float,Weighted percent of children aged 3 to 5 in a weekly center-based program,52
+center_care_by_income.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),5.68
+center_care_by_income.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,245
+center_care_by_locale.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+center_care_by_locale.csv,locale_group,str,"City, Suburb, Town or Rural",Suburb
+center_care_by_locale.csv,percent_in_weekly_center_program_age_3_to_5,float,Weighted percent of children aged 3 to 5 in a weekly center-based program,61.2
+center_care_by_locale.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),2.51
+center_care_by_locale.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,1128
+center_care_by_parent_education.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+center_care_by_parent_education.csv,parent_education,str,Highest education of the child's parents or guardians (PARGRADEX),Bachelor's degree
+center_care_by_parent_education.csv,percent_in_weekly_center_program_age_3_to_5,float,Weighted percent of children aged 3 to 5 in a weekly center-based program,67.9
+center_care_by_parent_education.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),2.22
+center_care_by_parent_education.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,753
+center_care_by_race_ethnicity.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+center_care_by_race_ethnicity.csv,child_race_ethnicity,str,"Child's race and ethnicity in 4 groups (RACEETHN 2016, RACEETH 2019, Asian, Pacific Islander and other or multiple races combined)","Other or multiple races, non-Hispanic"
+center_care_by_race_ethnicity.csv,percent_in_weekly_center_program_age_3_to_5,float,Weighted percent of children aged 3 to 5 in a weekly center-based program,60.5
+center_care_by_race_ethnicity.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),4.28
+center_care_by_race_ethnicity.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,352
+center_care_by_region.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+center_care_by_region.csv,census_region,str,Census region of residence (CENREG),South
+center_care_by_region.csv,percent_in_weekly_center_program_age_3_to_5,float,Weighted percent of children aged 3 to 5 in a weekly center-based program,60.9
+center_care_by_region.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),2.52
+center_care_by_region.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,918
+early_childhood_care_2016_2019.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+early_childhood_care_2016_2019.csv,child_id,int,"NCES child identifier (BASMID), unique within a survey year",20161169005
+early_childhood_care_2016_2019.csv,child_age,int,Child's age in years on December 31 of the year before the survey (NCES AGE2015 / AGE2018),0
+early_childhood_care_2016_2019.csv,child_sex,str,Child's sex (CSEX),Male
+early_childhood_care_2016_2019.csv,child_race_ethnicity,str,"Child's race and ethnicity in 4 groups (RACEETHN 2016, RACEETH 2019, Asian, Pacific Islander and other or multiple races combined)",Hispanic
+early_childhood_care_2016_2019.csv,census_region,str,Census region of residence (CENREG),West
+early_childhood_care_2016_2019.csv,locale,str,NCES 12-category locale of the ZIP code (ZIPLOCL),"City, large"
+early_childhood_care_2016_2019.csv,locale_group,str,"City, Suburb, Town or Rural",City
+early_childhood_care_2016_2019.csv,parent_education,str,Highest education of the child's parents or guardians (PARGRADEX),Vocational/technical or some college
+early_childhood_care_2016_2019.csv,household_income,str,"Total household income in 10 groups, the 2019 top groups combined into $150,001 or more (TTLHHINC)","$100,001 to $150,000"
+early_childhood_care_2016_2019.csv,household_income_detail,str,"Household income with the 2019 groups above $150,000 kept (TTLHHINC)","$100,001 to $150,000"
+early_childhood_care_2016_2019.csv,family_type,str,Parents and siblings in the household (FAMILY16X / FAMILY19X),Two parents and sibling(s)
+early_childhood_care_2016_2019.csv,parents_in_household,str,"Two parents, mother only, father only or nonparent guardians (HHPARN16X / HHPARN19X)",Two parents
+early_childhood_care_2016_2019.csv,parent1_work_status,str,Work status of the first parent or guardian (PAR1EMPL),Working 35+ hours a week
+early_childhood_care_2016_2019.csv,home_language,str,Language the parents learned first or speak at home (LANGUAGEX),English (both or only parent)
+early_childhood_care_2016_2019.csv,any_care_arrangement,str,"Child has any care arrangement or program, weekly or not (ANYCAREX)",Yes
+early_childhood_care_2016_2019.csv,weekly_care,str,"Child has at least one nonparental care arrangement scheduled at least once a week (RCWEEK, NCWEEK or CPWEEKX). This is the NCES headline measure",Yes
+early_childhood_care_2016_2019.csv,weekly_relative_care,str,Weekly care by a relative other than a parent (RCWEEK),Yes
+early_childhood_care_2016_2019.csv,weekly_nonrelative_care,str,Weekly care by a nonrelative in a private home (NCWEEK),No
+early_childhood_care_2016_2019.csv,weekly_center_program,str,"Weekly attendance at a day care center, preschool or prekindergarten (CPWEEKX)",No
+early_childhood_care_2016_2019.csv,main_arrangement,str,Main weekly arrangement,Relative care in the child's home
+early_childhood_care_2016_2019.csv,relative_care,str,Child now receives regular care from a relative (RCNOW),Yes
+early_childhood_care_2016_2019.csv,nonrelative_care,str,Child now receives care from a nonrelative in a private home (NCNOW),No
+early_childhood_care_2016_2019.csv,center_program,str,"Child now attends a center-based program, not in a private home (CPNNOWX)",No
+early_childhood_care_2016_2019.csv,relative_care_hours,int,Hours a week in relative care (RCHRS),25
+early_childhood_care_2016_2019.csv,nonrelative_care_hours,int,Hours a week in nonrelative care (NCHRS),40
+early_childhood_care_2016_2019.csv,center_hours,int,Hours a week in the center-based program (CPHRS),45
+early_childhood_care_2016_2019.csv,total_care_hours,int,Total hours a week in all nonparental arrangements (CAREHOURX),15
+early_childhood_care_2016_2019.csv,center_days,int,Days a week in the center-based program (CPDAYS),5
+early_childhood_care_2016_2019.csv,center_type_2016,str,"Kind of center program, 2016 only: day care, preschool or prekindergarten (CPTYPE)",Prekindergarten
+early_childhood_care_2016_2019.csv,center_head_start,str,The center program is Head Start or Early Head Start (CPHEADST),No
+early_childhood_care_2016_2019.csv,ever_head_start,str,Child ever attended Head Start or Early Head Start (PCEVRHDX),No
+early_childhood_care_2016_2019.csv,center_location,str,Where the center program is located (CPPLACEX),"Own building, office or storefront"
+early_childhood_care_2016_2019.csv,center_at_parent_workplace,str,The program is at a parent's workplace (CPWORK),No
+early_childhood_care_2016_2019.csv,center_run_by_religious_group_2016,str,"The program is run by a religious group, 2016 wording (CPSPRLG)",No
+early_childhood_care_2016_2019.csv,center_teaches_religion_2019,str,"The program teaches religious content, 2019 wording of the same item (CPSPRLG)",Yes
+early_childhood_care_2016_2019.csv,center_cost_amount,int,"Amount the household pays for the center program, in current dollars (CPCOST)",300
+early_childhood_care_2016_2019.csv,center_cost_unit,str,"Period the amount covers: hour, day, week, every 2 weeks, month, year or other (CPUNIT)",day
+early_childhood_care_2016_2019.csv,center_cost_children_covered,int,Number of children in the household the amount covers (CPCSTHNX),2
+early_childhood_care_2016_2019.csv,center_cost_weekly_per_child,float,"Derived weekly cost per child in USD: amount converted to a week with the hours or days reported, divided by the children covered. 0 means free, empty means unknown or other period",150
+early_childhood_care_2016_2019.csv,relative_cost_amount,int,Amount the household pays for relative care (RCCOST),800
+early_childhood_care_2016_2019.csv,relative_cost_unit,str,Period the amount covers (RCUNIT),month
+early_childhood_care_2016_2019.csv,relative_cost_children_covered,int,Number of children the amount covers (RCCSTHNX),2
+early_childhood_care_2016_2019.csv,relative_cost_weekly_per_child,float,Derived weekly cost per child in USD for relative care,92.31
+early_childhood_care_2016_2019.csv,nonrelative_cost_amount,int,Amount the household pays for nonrelative care (NCCOST),1050
+early_childhood_care_2016_2019.csv,nonrelative_cost_unit,str,Period the amount covers (NCUNIT),hour
+early_childhood_care_2016_2019.csv,nonrelative_cost_children_covered,int,Number of children the amount covers (NCCSTHNX),1
+early_childhood_care_2016_2019.csv,nonrelative_cost_weekly_per_child,float,Derived weekly cost per child in USD for nonrelative care,242.31
+early_childhood_care_2016_2019.csv,good_choices_available,str,Parent feels there are good choices for child care where they live (PPCHOIC),No
+early_childhood_care_2016_2019.csv,difficulty_finding_care,str,"Difficulty finding care, including ""did not look for care"" (PPDIFCLT, with CRSRCH in 2019)",Did not look for care
+early_childhood_care_2016_2019.csv,main_difficulty,str,Main reason finding care was difficult (WHYDIFCLT),Quality
+early_childhood_care_2016_2019.csv,main_reason_for_care,str,"Main reason for having care or a program (MAINRESN, codes mapped by label)",Did not have care in the past year
+early_childhood_care_2016_2019.csv,importance_location,str,Importance of location when choosing the main arrangement (DCLOA),Very important
+early_childhood_care_2016_2019.csv,importance_cost,str,Importance of cost (DCOST),Very important
+early_childhood_care_2016_2019.csv,importance_reliability,str,Importance of reliability (DRELY),Very important
+early_childhood_care_2016_2019.csv,importance_learning_activities,str,Importance of learning activities (DLERN),Somewhat important
+early_childhood_care_2016_2019.csv,importance_time_with_other_children,str,Importance of time with other children (DCHIL),Somewhat important
+early_childhood_care_2016_2019.csv,importance_caregiver_availability,str,Importance of the caregiver being available when needed (DHROP),Very important
+early_childhood_care_2016_2019.csv,importance_group_size,str,Importance of the number of children in the group (DNBGRP),Somewhat important
+early_childhood_care_2016_2019.csv,importance_website_ratings,str,"Importance of ratings on websites, ""Not available"" was added in 2019 (DRTWEB)",Somewhat important
+early_childhood_care_2016_2019.csv,importance_recommendations,str,"Importance of recommendations from family and friends, ""Not available"" added in 2019 (DRECFAM)",Somewhat important
+early_childhood_care_2016_2019.csv,importance_religious_orientation,str,Importance of religious orientation (DRELOR),Not at all important
+early_childhood_care_2016_2019.csv,importance_staff_qualifications,str,"Importance of staff qualifications, asked in 2019 only (DQUAL)",Somewhat important
+early_childhood_care_2016_2019.csv,times_read_to_past_week,int,"Times a family member read to the child in the past week, top-coded at 20 as in 2019 (FOREADTOX)",3
+early_childhood_care_2016_2019.csv,told_story_past_week,str,Times told a story in the past week (FOSTORYX),1 or 2 times
+early_childhood_care_2016_2019.csv,taught_letters_words_numbers_past_week,str,"Times taught letters, words or numbers in the past week (FOWORDSX)",3 or more times
+early_childhood_care_2016_2019.csv,sang_songs_past_week,str,Times sang songs with the child in the past week (FOSANG),3 or more times
+early_childhood_care_2016_2019.csv,arts_and_crafts_past_week,str,Times did arts and crafts with the child in the past week (FOCRAFTSX),1 or 2 times
+early_childhood_care_2016_2019.csv,family_dinners_past_week,int,Days the family ate the evening meal together in the past week (FODINNERX),7
+early_childhood_care_2016_2019.csv,library_visit_past_month,str,Visited a library with the child in the past month (FOLIBRAY),No
+early_childhood_care_2016_2019.csv,bookstore_visit_past_month,str,Visited a bookstore with the child in the past month (FOBOOKST),No
+early_childhood_care_2016_2019.csv,books_owned,int,"Number of books the child has, including shared ones (HABOOKS)",50
+early_childhood_care_2016_2019.csv,recognizes_letters,str,"Child recognizes the letters of the alphabet, asked for children 3 and older (DPLETTER)",Some
+early_childhood_care_2016_2019.csv,counts_up_to,str,"How high the child can count, children 3 and older (DPCOUNT)",Up to 20
+early_childhood_care_2016_2019.csv,writes_first_name,str,"Child can write their first name, children 3 and older (DPNAME)",No
+early_childhood_care_2016_2019.csv,final_weight,float,NCES final weight. Use it for national estimates and the replicate weights for standard errors (FEWT / FPWT),4802.0398
+home_learning_activities.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+home_learning_activities.csv,activity,str,Activity,Family dinner 5 or more days
+home_learning_activities.csv,column,str,Column in the main file,family_dinners_past_week
+home_learning_activities.csv,percent_of_children_age_3_to_5,float,Weighted percent of children aged 3 to 5 not yet in kindergarten,71.7
+home_learning_activities.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),1.33
+home_learning_activities.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,2576
+main_arrangement.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+main_arrangement.csv,main_arrangement,str,Main weekly arrangement,Nonrelative care in the child's home
+main_arrangement.csv,percent,float,Weighted percent,3.2
+main_arrangement.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),0.26
+main_arrangement.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,5844
+weekly_care_by_age.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+weekly_care_by_age.csv,group,str,Population group,Age 3
+weekly_care_by_age.csv,indicator,str,What is measured,Weekly nonrelative care
+weekly_care_by_age.csv,percent,float,Weighted percent,12.6
+weekly_care_by_age.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),1.03
+weekly_care_by_age.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,1101
+weekly_cost.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+weekly_cost.csv,arrangement,str,Type of care,Nonrelative care
+weekly_cost.csv,mean_weekly_cost_per_child_usd,float,"Weighted mean weekly cost per child in current USD, families who pay",137.76
+weekly_cost.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),5.08
+weekly_cost.csv,median_weekly_cost_per_child_usd,float,"Weighted median weekly cost per child, families who pay",100
+weekly_cost.csv,percent_paying_nothing,float,Weighted percent of families in that arrangement who pay nothing,4.8
+weekly_cost.csv,sample_size_paying,int,Unweighted families who pay,730
+what_parents_look_for.csv,survey_year,int,NHES survey year (2016 or 2019),2016
+what_parents_look_for.csv,factor,str,Factor parents rate,Number of children in the group
+what_parents_look_for.csv,column,str,Column in the main file,importance_group_size
+what_parents_look_for.csv,percent_very_important,float,Weighted percent rating it very important,41.4
+what_parents_look_for.csv,standard_error,float,Jackknife standard error (80 JK1 replicate weights),1
+what_parents_look_for.csv,sample_size,int,Unweighted number of sampled children or students behind the estimate,3871
+replicate_weights_2016_2019.csv,survey_year,int,NHES survey year,2019
+replicate_weights_2016_2019.csv,child_id,str,"Identifier, join key with the main file together with survey_year",
+replicate_weights_2016_2019.csv,FEWT1 ... FEWT80,float,The 80 jackknife (JK1) replicate weights. SE = sqrt(79/80 * sum((estimate_r - estimate)^2)),

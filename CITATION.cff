@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and credit the original NCES source."
+type: dataset
+title: "US Early Childhood Care Arrangements, 2016 and 2019"
+version: "1.0"
+date-released: 2026-11-02
+license: CC-BY-4.0
+authors:
+  - family-names: Carter
+    given-names: Sophia
+  - name: Montessori Theory
+    website: "https://www.montessori-theory.com/"
+repository-code: "https://github.com/montessoritheory/us-early-childhood-care"
+url: "https://www.montessori-theory.com/"
+abstract: "Care arrangements, hours, out-of-pocket cost, what parents look for in child care and learning activities at home for 12,936 US children from birth to age 5 not yet in kindergarten, harmonized from the 2016 and 2019 NCES Early Childhood Program Participation public-use files, with weights and replicate weights."
+keywords: [early childhood, child care, preschool, Head Start, NCES, NHES, survey data, United States]
+references:
+  - type: data
+    title: "U.S. Department of Education, NCES, National Household Education Surveys, Early Childhood Program Participation survey, public-use files 2016 and 2019"
+    authors:
+      - name: "U.S. Department of Education, National Center for Education Statistics"
+    url: "https://nces.ed.gov/nhes/dataproducts.asp"
